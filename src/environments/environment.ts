@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyD7cq5OyWsgpux6jFabnXa6Jmi421WggM8",
+    authDomain: "firechat-4a4b6.firebaseapp.com",
+    databaseURL: "https://firechat-4a4b6.firebaseio.com",
+    projectId: "firechat-4a4b6",
+    storageBucket: "firechat-4a4b6.appspot.com",
+    messagingSenderId: "710754331744",
+    appId: "1:710754331744:web:86e7b31b214f992cd76705"
+  }
+  
 };
 
 /*
